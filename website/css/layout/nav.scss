@@ -1,0 +1,113 @@
+
+nav {
+    position: relative;
+    background-image: url('/images/bg-header.png');
+
+    &.navbar {
+        padding: 0;
+        min-height: 100px;
+
+        .navbar-brand {
+            margin: 0;
+            padding: 0;
+        }
+
+        ul.nav {
+            li {
+                a.nav-link:link,
+                a.nav-link:visited,
+                a.nav-link:hover,
+                a.nav-link:active {
+                    font-family: $futura-bold;
+                    color: $nav-link-color;
+                    font-size: $nav-font-size;
+                    text-decoration: none;
+                    text-transform: uppercase;
+                    padding: 5px 30px 0;
+                }
+
+                a.nav-link:hover,
+                a.nav-link:active,
+                a.nav-link:focus,
+                a.nav-link.active:link,
+                a.nav-link.active:visited,
+                a.nav-link.active:hover,
+                a.nav-link.active:active {
+                    background-color: transparent;
+                    color: $hot-pink;
+                    border-radius: 0;
+                }
+            }
+        }
+    }
+
+    .navbar-nav {
+        display: none;
+    }
+
+    .navbar-brand {
+        display: inline-block;
+        padding: 0 0 0 10px;
+
+        img {
+            display: inline-block;
+            width: 100%;
+            padding: 0 0 0 22px;
+        }
+    }
+
+    ul {
+        display: inline-block;
+        padding: 0;
+        margin: 0;
+
+        li {
+            display: inline-block;
+            padding: 0;
+            margin: 0;
+        }
+    }
+
+    ul.menu {
+        position: relative;
+        top: 4px;
+
+        li {
+            display: inline-block;
+            padding: 0;
+            margin: 0 10px;
+        }
+    }
+
+    ul.social {
+        position: absolute;
+        top: 0;
+        right: 20px;
+        height: 100%;
+        line-height: 122px;
+
+        li {
+            display: inline-block;
+            width: 42px;
+            height: 34px;
+
+            a,
+            a:focus,
+            a:hover,
+            a:visited {
+                display: block;
+                width: 100%;
+                height: 100%;
+                background-repeat: no-repeat;
+            }
+
+            .email {
+                background-image: url('/images/email.png');
+            }
+
+            .twitter {
+                background-image: url('/images/twitter.png');
+            }
+        }
+    }
+}

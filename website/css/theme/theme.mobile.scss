@@ -1,0 +1,16 @@
+
+@media screen and (max-width: $mobile-width) {
+    .content {
+        p {
+            line-height: $copy-line-height-mobile;
+            font-size: $copy-font-size-mobile;
+        }
+
+        a.btn {
+            max-width: 100%;
+            text-overflow: ellipsis;
+            position: relative;
+            overflow: hidden;
+        }
+    }
+}

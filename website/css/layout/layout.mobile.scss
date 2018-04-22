@@ -1,0 +1,43 @@
+
+@media screen and (max-width: $mobile-width) {
+
+	
+	#hero {
+		height: 600px;
+        background-size: cover;
+        min-width: 100%;
+
+		.hero-content {
+			background-size: contain;
+			background-position: center 265px;
+		}
+	}
+
+	.content-wrapper {
+		max-width: 100%;
+
+		.content {
+			.content-container {
+
+				.row {
+					> div.btn-spacer {
+						padding: 30px 0 0 0;
+					}
+
+					> div {
+						padding: 0;
+						margin: 0;
+
+						.youtube-wrapper {
+							padding: 15px;
+						}
+					}
+				}
+			}
+		}
+	}
+
+    #crypto, #poker, #drones {
+        bottom: 50px;
+    }
+}

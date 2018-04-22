@@ -1,0 +1,173 @@
+
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url('/images/bg-body.png');
+    background-repeat: repeat;
+}
+
+#hero {
+    background-image: url(/images/bg-hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100vw;
+    max-width: 100%;
+    min-width: 100%;
+    height: 850px;
+    min-height: 80vh;
+    max-height: calc(100vh + 50px);
+
+    .hero-content {
+        background-image: url('/images/logo2.png');
+        background-repeat: no-repeat;
+        width: 100vw;
+        max-width: 100%;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-position: center 70%;
+        background-size: 760px;
+        margin: 0 auto;
+    }
+}
+
+.content-wrapper {
+    max-width: 90vw;
+    margin: 0 auto;
+    margin-bottom: -90px;
+
+    .content {
+        position: relative;
+        bottom: 50px;
+        min-height: 730px;
+        width: 100vw;
+        background-position: center top;
+        max-width: 100%;
+        padding: 0 2em;
+
+        .headline-wrapper {
+            position: relative;
+            text-align: center;
+
+            &::before,
+            &::after {
+                position: absolute;
+                content: '';
+                display: inline-block;
+                width: calc(50% - 165px);
+                height: 100%;
+                background-image: url('/images/separator.png');
+                background-repeat: no-repeat;
+                background-position: center;
+                border-radius: 10px;
+                background-size: 100% 31px;
+                top: 0;
+            }
+
+            &::before {
+                left: 1em;
+            }
+
+            &::after {
+                right: 1em;
+            }
+
+            .headline {
+                position: relative;
+                display: inline-block;
+                width: 250px;
+                height: 115px;
+                background-image: url('/images/crypto.png');
+                background-repeat: no-repeat;
+                background-size: contain;
+                background-position: center;
+            }
+
+            .crytpo-headline {
+                background-image: url('/images/crypto.png');
+            }
+
+            .poker-headline {
+                background-image: url('/images/poker.png');
+            }
+
+            .drones-headline {
+                background-image: url('/images/drones.png');
+            }
+        }
+
+        .content-container {
+            margin-bottom: 70px;
+
+            .row {
+                > div.btn-spacer {
+                    padding: 70px 0 0 0;
+                }
+
+                > div {
+                    padding: 0;
+                    margin: 0;
+
+
+                    .youtube-wrapper {
+                        padding: 30px;
+                    }
+
+                    .youtube-container {
+                        position: relative;
+                        width: 100%;
+                        height: 0;
+                        padding-bottom: 56.25%;
+
+                        iframe {
+                            position: absolute;
+                            width: 100%;
+                            height: 100%;
+                            left: 0;
+                            top: 0;
+                        }
+                    }
+                }
+            }
+        }
+
+        .poker {
+
+            .youtube-wrapper {
+                max-width: 640px;
+                margin: 0 auto;
+            }
+
+            .youtube-container {
+                -webkit-box-shadow: 0px 0px 41px 3px rgba(23,122,77,1);
+                -moz-box-shadow: 0px 0px 41px 3px rgba(23,122,77,1);
+                box-shadow: 0px 0px 41px 3px rgba(23,122,77,1);
+            }
+        }
+
+        .drones {
+            .youtube-container {
+                -webkit-box-shadow: 0px 0px 41px 3px rgba(76,33,100,1);
+                -moz-box-shadow: 0px 0px 41px 3px rgba(76,33,100,1);
+                box-shadow: 0px 0px 41px 3px rgba(76,33,100,1);
+            }
+        }
+    }
+}
+
+#crypto, #poker, #drones {
+    position: relative;
+    bottom: 120px;
+}
+
+footer {
+    background-color: $bg-footer-color;
+
+    div {
+        padding: 1em 0;
+        text-align: center;
+        font-size: 1.25em;
+        line-height: 1.25em;
+        color: $footer-copy-color;
+    }
+}

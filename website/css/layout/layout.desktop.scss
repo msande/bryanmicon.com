@@ -1,0 +1,13 @@
+
+@media screen and (min-width: $desktop-width) {
+	.vertical-align {
+		display: flex;
+		flex-direction: row;
+	}
+
+	.vertical-align > [class^="col-"],
+	.vertical-align > [class*=" col-"] {
+		display: flex;
+		align-items: center;
+	}
+}
