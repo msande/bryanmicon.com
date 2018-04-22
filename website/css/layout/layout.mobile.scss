@@ -1,43 +1,71 @@
 
-@media screen and (max-width: $mobile-width) {
 
-	
-	#hero {
-		height: 600px;
+@media screen and (max-width: $mobile-width-wide) {
+    #hero {
+        height: 45vh;
         background-size: cover;
         min-width: 100%;
+    }
 
-		.hero-content {
-			background-size: contain;
-			background-position: center 265px;
-		}
-	}
+    .content-wrapper .content .poker.content-container .row > div .youtube-wrapper {
+        padding: 15px 35px;
+    }
 
-	.content-wrapper {
-		max-width: 100%;
+    .content-wrapper {
+        max-width: 100%;
 
-		.content {
-			.content-container {
 
-				.row {
-					> div.btn-spacer {
-						padding: 30px 0 0 0;
-					}
 
-					> div {
-						padding: 0;
-						margin: 0;
+        .content {
+            .content-container {
 
-						.youtube-wrapper {
-							padding: 15px;
-						}
-					}
-				}
-			}
-		}
-	}
+                .row {
+                    > div.btn-spacer {
+                        padding: 30px 0 0 0;
+                    }
+
+                    > div {
+                        padding: 0;
+                        margin: 0;
+
+                        .youtube-wrapper {
+                            padding: 15px 35px;
+                        }
+                    }
+                }
+            }
+
+            .headline-wrapper {
+                margin: 0 0 15px 0;
+
+                &::before,
+                &::after {
+                    width: calc(50% - 115px);
+                }
+
+                .headline {
+                    height: 75px;
+                }
+            }
+        }
+    }
 
     #crypto, #poker, #drones {
         bottom: 50px;
+    }
+}
+
+@media screen and (max-width: $mobile-width) {
+
+    .content-wrapper {
+        .content {
+            .headline-wrapper {
+
+                &::before,
+                &::after {
+                    width: calc(50% - 30vw);
+                }
+            }
+        }
     }
 }

@@ -24,7 +24,7 @@
     }
 }
 
-@media screen and (max-width: $mobile-width) {
+@media screen and (max-width: $mobile-width-wide) {
     nav {
 
         &.navbar {
@@ -51,7 +51,7 @@
         button.navbar-toggler.collapsed,
         button.navbar-toggler.collapsed:active,
         button.navbar-toggler.collapsed:focus {
-            outline: 1px solid $hot-pink;
+            /*outline: 1px solid $hot-pink;*/
             background: transparent;
 
 

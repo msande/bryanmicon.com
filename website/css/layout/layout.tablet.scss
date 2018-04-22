@@ -1,30 +1,33 @@
 
 @media screen and (max-width: $tablet-width) {
-	#hero {
-		.hero-content {
-			background-size: contain;
-		}
-	}
+    #hero {
+        height: 75vh;
+        background-size: cover;
+        min-width: 100%;
+    }
 
     .content-wrapper {
+        padding: 0 10px;
+
         .content {
             .headline-wrapper {
-                background-image: url('/images/separator.png');
+                /*background-image: url('/images/separator.png');
                 background-position: bottom center;
                 background-size: 100% 31px;
                 background-repeat: no-repeat;
                 margin-bottom: 35px;
-                text-align: center;
-
-                .headline {
-                    margin-bottom: 30px;
-                    max-width: 65%;
-                    /*background-size: contain;*/
-                }
-
+                text-align: center;*/
                 &::before,
                 &::after {
-                    display: none;
+                    width: calc(50% - 150px);
+                }
+
+
+                .headline {
+                    /*margin-bottom: 30px;*/
+                    max-width: 50%;
+                    background-size: contain;
+                    /*background-size: contain;*/
                 }
             }
 
