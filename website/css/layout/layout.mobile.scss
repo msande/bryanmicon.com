@@ -17,6 +17,8 @@
 
 
         .content {
+            bottom: 20px;
+
             .content-container {
 
                 .row {
@@ -32,6 +34,12 @@
                             padding: 15px 35px;
                         }
                     }
+                }
+            }
+
+            .crypto {
+                .headline-wrapper {
+                    margin: 0 0 -20px;
                 }
             }
 
