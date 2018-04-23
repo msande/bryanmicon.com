@@ -11,12 +11,7 @@
 
         .content {
             .headline-wrapper {
-                /*background-image: url('/images/separator.png');
-                background-position: bottom center;
-                background-size: 100% 31px;
-                background-repeat: no-repeat;
-                margin-bottom: 35px;
-                text-align: center;*/
+                
                 &::before,
                 &::after {
                     width: calc(50% - 150px);
@@ -24,10 +19,8 @@
 
 
                 .headline {
-                    /*margin-bottom: 30px;*/
                     max-width: 50%;
                     background-size: contain;
-                    /*background-size: contain;*/
                 }
             }
 
