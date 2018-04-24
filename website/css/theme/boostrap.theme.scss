@@ -32,6 +32,10 @@
     margin: 0 auto;
 }
 
+.text-centered {
+    text-align: center;
+}
+
 @media screen and (min-width: $desktop-width) {
     .col-lg-5 {
         flex: 38%;
