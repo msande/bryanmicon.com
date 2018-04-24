@@ -12,5 +12,16 @@
             position: relative;
             overflow: hidden;
         }
+
+        .micoin-wrapper {
+            padding: 0;
+
+            img {
+                width: 67%;
+                max-width: 250px;
+                margin: 0 auto 10%;
+                display: block;
+            }
+        }
     }
 }

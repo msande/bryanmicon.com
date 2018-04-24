@@ -39,12 +39,12 @@
 
             .crypto {
                 .headline-wrapper {
-                    margin: 0 0 -20px;
+                    /*margin: 0 0 -20px;*/
                 }
             }
 
             .headline-wrapper {
-                margin: 0 0 15px 0;
+                margin: 0 0 25px 0;
 
                 &::before,
                 &::after {
@@ -59,7 +59,7 @@
     }
 
     #crypto, #poker, #drones {
-        bottom: 50px;
+        bottom: 70px;
     }
 }
 

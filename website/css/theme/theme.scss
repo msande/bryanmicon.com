@@ -1,6 +1,6 @@
 
 .horizontal-align {
-	text-align: center;
+    text-align: center;
 }
 
 .content {
@@ -39,11 +39,15 @@
         font-family: $futura;
     }
 
-    img.micoin {
-        max-width: 350px;
-        border-radius: 50%;
-        -webkit-box-shadow: 0px 0px 140px 0px rgba(0,255,255,0.5);
-        -moz-box-shadow: 0px 0px 140px 0px rgba(0,255,255,0.5);
-        box-shadow: 0px 0px 140px 0px rgba(0,255,255,0.5);
+    .micoin-wrapper {
+        padding: 0 40px 0 0;
+
+        img {
+            max-width: 350px;
+            border-radius: 50%;
+            -webkit-box-shadow: 0px 0px 140px 0px rgba(0,255,255,0.5);
+            -moz-box-shadow: 0px 0px 140px 0px rgba(0,255,255,0.5);
+            box-shadow: 0px 0px 140px 0px rgba(0,255,255,0.5);
+        }
     }
 }
