@@ -4,6 +4,11 @@
         height: 75vh;
         background-size: cover;
         min-width: 100%;
+
+        &::before {
+            background-size: 85%;
+            background-position: center 52%;
+        }
     }
 
     .content-wrapper {

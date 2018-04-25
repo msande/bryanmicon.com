@@ -6,11 +6,6 @@
         background-size: cover;
         min-width: 100%;
         min-height: inherit;
-
-        &::before {
-            background-size: 85%;
-            background-position: center 52%;
-        }
     }
 
     .content-wrapper .content .poker.content-container .row > div .youtube-wrapper {

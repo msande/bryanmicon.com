@@ -55,7 +55,37 @@
         display: inline-block;
         width: 182px;
         max-width: 100%;
-        margin: 0 0 35px;
+        /*margin: 0 0 35px;*/
         border-radius: 50%;
+    }
+
+    .poker {
+
+        .youtube-container {
+            -webkit-box-shadow: $green-shadow;
+            -moz-box-shadow: $green-shadow;
+            box-shadow: $green-shadow;
+        }
+    }
+
+    .drones {
+        .youtube-container,
+        img.fpv {
+            -webkit-box-shadow: $purple-shadow;
+            -moz-box-shadow: $purple-shadow;
+            box-shadow: $purple-shadow;
+        }
+    }
+}
+
+footer {
+    background-color: $bg-footer-color;
+
+    div {
+        padding: 1em 0;
+        text-align: center;
+        font-size: 1.25em;
+        line-height: 1.25em;
+        color: $footer-copy-color;
     }
 }
